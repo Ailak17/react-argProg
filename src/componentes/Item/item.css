@@ -1,0 +1,16 @@
+.item{
+    background:  rgb(237, 195, 231);
+    margin: 0% 8% 0% 8%;
+}
+.titulos{
+    font-family: 'Amatic SC', sans-serif;
+    font-size: xxx-large;
+    text-align: center;
+}
+.descripcion{
+    text-align: center;
+}
+.precio{
+    text-align: center;
+    font-size: x-large;
+}

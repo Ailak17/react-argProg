@@ -1,0 +1,9 @@
+.bienvenida{
+    font-size: 350%;
+    color: rgba(255, 98, 0, 0.956);
+    font-family: 'Amatic SC', sans-serif;
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(250, 155, 239, 0.452);
+}
