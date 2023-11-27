@@ -1,10 +1,14 @@
 import Card from 'react-bootstrap/Card';
 import './item.css'
 import ferrero from './ferrero.jpg'
+import Button from 'react-bootstrap/Button';
 
 
 
 function Item () {
+  const alerta = () => {
+    alert("¡Gracias por su compra!");
+  };
   return (
     <Card style={{ width: '22rem' }} className='item'>
       <Card.Img src={ferrero} rounded />
@@ -21,7 +25,7 @@ function Item () {
         <Card.Text className='precio'>
             $1200
         </Card.Text>
-        
+        <Button onClick={alerta} variant="light">Comprar</Button>
       </Card.Body>
     </Card>
   );

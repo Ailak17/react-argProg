@@ -1,0 +1,13 @@
+.formulario{
+    background: #fcdcf9;
+    width: 50%;
+    margin: 1%;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: xxx-large;
+}
+.dforme{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    background: #c7f5f3;
+}

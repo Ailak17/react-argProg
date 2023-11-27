@@ -4,6 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import "./nav.css"
 import dulce from './dulce.png'
+import { NavLink } from "react-router-dom"
 
 function Nav1() {
   return (
@@ -18,7 +19,7 @@ function Nav1() {
             navbarScroll
           >
             <Nav.Link href="#action1" className='contrac'>Home</Nav.Link>
-            <Nav.Link href="#action2" className='contrac'>Productos</Nav.Link>
+            <Nav.Link   className='contrac '><NavLink to={"/registro"}>Registro</NavLink></Nav.Link>
             <NavDropdown title="Redes" className='contrac' id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3" className='contrac'>Mail</NavDropdown.Item>
               <NavDropdown.Item href="#action4" className='contrac'>

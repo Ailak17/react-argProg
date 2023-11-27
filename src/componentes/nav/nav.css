@@ -1,4 +1,5 @@
 .navcss {
+    text-decoration:none;
     background: rgb(242,246,170);
     background: linear-gradient(90deg, rgba(242,246,170,1) 37%, rgba(228,186,242,1) 100%);
 }
@@ -12,10 +13,16 @@
     font-family: 'Amatic SC', sans-serif;
     color: rgb(103, 63, 140);
     text-shadow:  1px 1px 1px rgb(246, 201, 246);
+    text-decoration:none;
+    text-decoration:none;
 }
 
 .contrac{
     font-size: 250%;
     font-family: 'Amatic SC', sans-seri;
     color: rgb(50, 45, 129);
+    text-decoration:none;
+}
+a:link, a:visited, a:active {
+    text-decoration:none;
 }
