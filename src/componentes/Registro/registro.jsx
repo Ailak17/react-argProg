@@ -8,25 +8,25 @@ function Registro() {
       
     <Form className='formulario'>
       <Form.Group className="mb-3" controlId="formBasicEmail">
-        <Form.Label>Nombre y apellido</Form.Label>
-        <Form.Control type="text" placeholder="Ingrese su nombre" />
+        <Form.Label >Nombre y apellido</Form.Label>
+        <Form.Control className='textplace' type="text" placeholder="Ingrese su nombre" />
       </Form.Group>
       <Form.Group className="mb-3" controlId="formBasicEmail">
-        <Form.Label>Correo electronico</Form.Label>
-        <Form.Control type="email" placeholder="Ingrese su nombre" />
+        <Form.Label >Correo electronico</Form.Label>
+        <Form.Control className='textplace' type="email" placeholder="Ingrese su nombre" />
       </Form.Group>
       <Form.Group className="mb-3" controlId="formBasicEmail">
-        <Form.Label>Numero de telefono</Form.Label>
-        <Form.Control type="number" placeholder="Ingrese su nombre" />
+        <Form.Label >Numero de telefono</Form.Label>
+        <Form.Control className='textplace' type="number" placeholder="Ingrese su nombre" />
       </Form.Group>
 
       <Form.Group className="mb-3" controlId="formBasicPassword">
-        <Form.Label>Contraseña</Form.Label>
-        <Form.Control type="password" placeholder="Password" />
+        <Form.Label >Contraseña</Form.Label>
+        <Form.Control  className='textplace' type="password" placeholder="contraseña" />
       </Form.Group>
       <Form.Group className="mb-3" controlId="formBasicPassword">
-        <Form.Label>Confirmar Contraseña</Form.Label>
-        <Form.Control type="password" placeholder="Password" />
+        <Form.Label >Confirmar Contraseña</Form.Label>
+        <Form.Control className='textplace'  type="password" placeholder="contraseña" />
       </Form.Group>
       
       <Button variant="primary" type="submit">

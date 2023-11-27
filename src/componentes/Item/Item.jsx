@@ -1,31 +1,38 @@
 import Card from 'react-bootstrap/Card';
 import './item.css'
-import ferrero from './ferrero.jpg'
-import Button from 'react-bootstrap/Button';
+import { Button } from 'react-bootstrap';
+import { useState } from 'react';
 
 
-
-function Item () {
-  const alerta = () => {
-    alert("¡Gracias por su compra!");
-  };
+function Item ({titulo, imagen, id, stock, precio, descripcion} ) {
+  const [compra, setCompra] =useState (true)
   return (
     <Card style={{ width: '22rem' }} className='item'>
-      <Card.Img src={ferrero} rounded />
+      <Card.Img variant="top" src={imagen} />
       <Card.Body>
-        <Card.Title className='titulos'>Ferrero Rocher</Card.Title>
-        <Card.Text className='descripcion'>Chocolates con avellanas formados por una capa de barquillo rellena con pasta de cacao y avellanas, recubierta por una capa de chocolate con avellanas trituradas y una avellana entera en el interior, además de manteca de palma, envueltos en papel metalizado y colocados individualmente sobre un molde de papel engrasado.
+        <Card.Title className='titulos'>{titulo}</Card.Title>
+        <Card.Text className='descripcion'>{descripcion}
         </Card.Text>
         <Card.Text>
-            Codigo : 232323
+            Codigo :{id}
         </Card.Text>
         <Card.Text>
-            Quedan 3 unidades
+            Quedan {stock} unidades
         </Card.Text>
         <Card.Text className='precio'>
-            $1200
+            $ {precio}
         </Card.Text>
-        <Button onClick={alerta} variant="light">Comprar</Button>
+        
+        <div className='boton' 
+        ><Button  onClick={() => {setCompra(!compra)}} variant="light">Comprar {}</Button> 
+        {compra ? (
+        <div style={{ color: 'red' }}> </div>
+      ) : (
+        <div className='titulos' >Gracias por su compra</div>
+      )}
+      </div>
+
+        
       </Card.Body>
     </Card>
   );

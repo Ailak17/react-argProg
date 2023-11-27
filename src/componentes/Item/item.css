@@ -14,3 +14,7 @@
     text-align: center;
     font-size: x-large;
 }
+.boton{
+    display: flex;
+    justify-content: center;
+}

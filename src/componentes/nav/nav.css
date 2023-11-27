@@ -1,5 +1,8 @@
-.navcss {
+*{
     text-decoration:none;
+}
+.navcss {
+    
     background: rgb(242,246,170);
     background: linear-gradient(90deg, rgba(242,246,170,1) 37%, rgba(228,186,242,1) 100%);
 }
@@ -20,7 +23,7 @@
 .contrac{
     font-size: 250%;
     font-family: 'Amatic SC', sans-seri;
-    color: rgb(50, 45, 129);
+    color: rgb(45, 77, 129);
     text-decoration:none;
 }
 a:link, a:visited, a:active {

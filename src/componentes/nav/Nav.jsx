@@ -10,7 +10,7 @@ function Nav1() {
   return (
     <Navbar expand="lg" className="navcss"  >
       <Container fluid>
-        <Navbar.Brand href="#" className='fuente titu'>Tienda de golosinas</Navbar.Brand>
+        <Navbar.Brand href="/" className='fuente titu'>Tienda de golosinas</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -18,14 +18,14 @@ function Nav1() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1" className='contrac'>Home</Nav.Link>
+            <Nav.Link href="/" className='contrac'>Home</Nav.Link>
             <Nav.Link   className='contrac '><NavLink to={"/registro"}>Registro</NavLink></Nav.Link>
             <NavDropdown title="Redes" className='contrac' id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3" className='contrac'>Mail</NavDropdown.Item>
-              <NavDropdown.Item href="#action4" className='contrac'>
+              <NavDropdown.Item href="/" className='contrac'>Mail</NavDropdown.Item>
+              <NavDropdown.Item href="/" className='contrac'>
                 Instagram
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action4" className='contrac'>
+              <NavDropdown.Item href="/" className='contrac'>
                 Facebook
               </NavDropdown.Item>
             </NavDropdown>
